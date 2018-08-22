@@ -13,7 +13,7 @@ cars = {'Car': { 'type': { 'suv'        : {'color': ['red','yellow','black']
                       },
                'exterior' : {'color' : ['green','red']}
              }
-
+#Let's say we need to find only "red" attribute on a leaf/list level of many nested dictionaries
 
 def filterNestedDict(node, searchItem):
     if isinstance(node,list):
